@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Países</title>
+  <style>
+    body {
+      font: normal 15pt Arial;
+    }
+    input {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Brasileiro e Estrangeiro</h1>
+  <form action="cadastro.php" method="post">
+    <label for="ipais">Seu país</label>
+    <input type="text" name="pais" id="ipais">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+  </form>
+  <script>
+     function calcular() {
+      var país = 'Brasil'
+      var ipais = window.document.querySelector('input#ipais')
+      var res = window.document.querySelector('div#res')
+      if (país == 'Brasil') {
+        res.innerHTML = `Vivendo no ${país} você é Brasileiro!`
+      } else {
+         res.innerHTML = `Vivendo em  ${país} você é Estrangeiro!`
+      }
+     }
+  </script>
+</body>
+</html>
