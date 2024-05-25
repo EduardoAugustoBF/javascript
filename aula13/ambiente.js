@@ -1,11 +1,17 @@
 var c = 1
-while (c <= 5) {
+do {
+  console.log(`Passo ${c}`)
+  c++
+} while (c <= 5)
+
+
+/*
+var c = 1
+while (c <= 3) {
   console.log(`Passo ${c}`)
   c++
 }
-
-
-
+*/ 
 
 
 /*
