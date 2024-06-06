@@ -1,7 +1,8 @@
-var vel = 120
-console.log(`Você está dirigndo á ${vel}Km/h`)
-if (vel > 60) {
-  console.log('Você está MULTADO!')
+let vel = 120
+console.log(`Você está dirigindo á ${vel}km/h`)
+if (vel > 80) {
+  console.log('Você está MULTADO por excesso de velocidade')
 } else {
-  console.log('Parabéns, você está dirigindo na velocidade correta!')
-} console.log('Dirija sempre usando cinto de segurança!')
+  console.log('Você está dirigindo na velocidade correta')
+}
+console.log('Use sempre o cinto de segurança!')
