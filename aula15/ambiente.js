@@ -1,6 +1,4 @@
-let num = [5,8,2,9, 3]
-num.push(1)
-num.sort()
+let num = [5,8,3,6,9]
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
-console.log(`O primeiro valor do vetor é o ${num[0]}`)
+console.log(`O primeiro número é ${num[0]}`)
