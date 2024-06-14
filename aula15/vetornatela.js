@@ -9,7 +9,7 @@ let num = [5,8,9,6,3]
 console.log(num)
 
 for (let pos in num) {
-  console.log(`A posição ${pos} tem o valor ${num[pos]}`)
+  console.log(`O valor ${pos} está na posição ${num[pos]}` )
 }
 
 
