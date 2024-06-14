@@ -4,6 +4,6 @@ function parimpar(n) {
   } else {
     return 'Impar!'
   }
-}
+} 
 
-console.log(parimpar(4))
+console.log(parimpar(24))
