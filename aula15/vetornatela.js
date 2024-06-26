@@ -5,14 +5,16 @@ for (let pos = 0; pos < valores.length; pos++) {
 }*/
 
 /* Jeito mais rápido de fazer */
+
 let num = [5,8,9,6,3]
 num.push(1)
 num.sort()
 console.log(num)
 
-
 for (let pos in num) {
   console.log(`A posição ${pos} tem o valor ${num[pos]}`)
 }
+
+
 
 
