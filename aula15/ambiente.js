@@ -1,4 +1,4 @@
-let num = [5,9,6,8,3]
+let num = [5,8,9,6,3]
 num.push(1)
 num.sort()
 console.log(num)
@@ -8,7 +8,7 @@ let pos = num.indexOf(8)
 if (pos == -1) {
   console.log('O valor não foi encontrado!')
 } else {
-  console.log(`O valor está na posição ${pos}`)
+  console.log(`O vetor está na posição ${pos}`)
 }
 
 

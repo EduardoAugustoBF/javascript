@@ -1,5 +1,5 @@
 let idade = 18
-console.log(`Com ${idade} anos`)
+console.log(`Com ${idade} anos.`)
 if (idade < 16) {
   console.log('Não vota!')
 } else if (idade < 18 || idade > 65) {
