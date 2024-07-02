@@ -16,4 +16,3 @@ for (let pos in num) {
 }
 
 
-
