@@ -1,14 +1,14 @@
-let num = [5,6,8,9,3]
+let num = [5,8,9,6,3]
 num.push(4)
 num.sort()
 console.log(num)
 console.log(`O vetor tem ${num.length} posições`)
-console.log(`O primeiro vetor é o número ${num[0]}`)
+console.log(`O primeiro vetor é ${num[0]}`)
 let pos = num.indexOf(6)
 if (pos == -1) {
-  console.log('O valor não foi encontrado!')
+  console.log('O valor não foi encontrado')
 } else {
-  console.log(`O valor está na posição ${pos}`)
+  console.log(`O valor está na posicão ${pos}`)
 }
 
  
