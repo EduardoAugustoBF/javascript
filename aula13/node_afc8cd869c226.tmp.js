@@ -1,9 +1,8 @@
-var c = 1
-while (c <= 100) {
-  console.log('Tudo bem?')
+let c = 1
+while (c <= 10) {
+  console.log('Gizelly gata')
   c++
 }
-
 
 
 
