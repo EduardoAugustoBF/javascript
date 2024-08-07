@@ -4,9 +4,11 @@
 let valor = 20
 
 function soma(numero1, numero2) {
-   console.log()
+ 
+    const somaDosNumeros = numero1 + numero2
+
+     return somaDosNumeros
 }
 
 
-mostraNome("Eduardo")
-mostraNome("Deus é salvador")
+const meusNumeros = soma(4,6)
