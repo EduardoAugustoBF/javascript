@@ -10,5 +10,5 @@ function soma(numero1, numero2) {
      return somaDosNumeros
 }
 
-
+ 
 const meusNumeros = soma(4,6)
