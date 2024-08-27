@@ -1,11 +1,10 @@
 
-let c = 1 
+let c = 1
 
 do {
-  console.log(`Passo ${c}`)
+  console.log(`passo ${c}`)
   c++
-} while (c <= 30)
-
+}while (c <= 30)
   
 
  

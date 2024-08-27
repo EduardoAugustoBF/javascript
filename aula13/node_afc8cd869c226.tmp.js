@@ -1,6 +1,6 @@
 let c = 1
-while (c <= 10) {
-  console.log('Gizelly gata')
+while (c <= 5) {
+  console.log('Aguia')
   c++
 }
 
